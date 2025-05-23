@@ -18,7 +18,6 @@ namespace ProductManagement_APIDashboard.Controllers
             _authenticateService = authenticateService;
         }
 
-
         [HttpPost("Login")]
         public async Task<ActionResult<AuthenticateResponce>> Login(LoginModel model)
         {
